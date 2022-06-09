@@ -1,0 +1,17 @@
+* Variables: 
+Es un espacio o sitio para guardar o recuperar algo.Son valores o datos.
+* Strings:
+Conjuntos o grupos de letras, números o símbolos.
+* Funciones (argumentos, `return`):
+Las funciones son instrucciones para hacer lo
+que queramos con las variables. Otra manera de verlo
+es que las funciones son formas de manipular las variables.
+Los argumentos son las variables que podemos usar en la función.
+Return detiene la función y muestra el dato que le pidamos.
+* Declaraciones `if`:
+Una declaración es una expresión para hacer algo.
+La declaración if es una acción que se cumple si es verdad, si no es
+verdad hace otra acción o diferente o no hace nada.
+* Valores booleanos (`true`, `false`):
+Son valores verdaderos (true) o falsos (falses)
+Son expresiones de verdad o son expresiones de mentira.
