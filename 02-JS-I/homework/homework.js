@@ -197,8 +197,8 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var sumnomape = "nombre " + "apellido";
-  return sumnomape;
+var sumnomape = nombre +" "+apellido;
+return sumnomape;
 }
 
 function obtenerSaludo(nombre) {
