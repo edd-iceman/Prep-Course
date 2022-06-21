@@ -5,52 +5,109 @@ function obtenerMayor(x, y) {
   // Devuelve el número más grande
   // Si son iguales, devuelve cualquiera de los dos
   // Tu código:
+if (x>y){
+  return x;
+}
+return y;
+if (x===y){
+  return y;
+}
 }
 
 function mayoriaDeEdad(edad) {
   //Determinar si la persona según su edad puede ingresar a un evento.
   //Si tiene 18 años ó más, devolver --> "Allowed"
   //Si es menor, devolver --> "Not allowed"
-}
-  
+  if (edad>=18){
+    return "Allowed";
+  }
+    return "Not allowed";
+  }
+ 
 function conection(status) {
   //Recibimos un estado de conexión de un usuario representado por un valor numérico. 
   //Cuando el estado es igual a 1, el usuario está "Online"
   //Cuando el estado es igual a 2, el usuario está "Away"
   //De lo contrario, presumimos que el usuario está "Offline"
   //Devolver el estado de conexión de usuario en cada uno de los casos.
-}
+  if (status===1){
+    return "Online";
+  }
+  if (status===2){
+    return "Away";
+  }
+    return "Offline";
+  }
 
 function saludo(idioma) {
   // Devuelve un saludo en tres diferentes lenguajes:
   // Si "idioma" es "aleman", devuelve "Guten Tag!"
   // Si "idioma" es "mandarin", devuelve "Ni Hao!"
   // Si "idioma" es "ingles", devuelve "Hello!"
-  // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
+  // Si "idioma" no es ninguno de los anteriores o es `undefined` devuelve "Hola!"
   // Tu código:
-}
+  if (idioma === "aleman"){
+    return "Guten Tag!";
+  }
+  if (idioma === "mandarin"){
+    return "Ni Hao!";
+  }
+  if (idioma === "ingles"){
+    return "Hello";
+  }
+    return "Hola!";
+  }
 
 function colors(color) {
   //La función recibe un color. Devolver el string correspondiente:
-  //En caso que el color recibido sea "blue", devuleve --> "This is blue"
-  //En caso que el color recibido sea "red", devuleve --> "This is red"
-  //En caso que el color recibido sea "green", devuleve --> "This is green"
-  //En caso que el color recibido sea "orange", devuleve --> "This is orange"
+  //En caso que el color recibido sea "blue", devuelve --> "This is blue"
+  //En caso que el color recibido sea "red", devuelve --> "This is red"
+  //En caso que el color recibido sea "green", devuelve --> "This is green"
+  //En caso que el color recibido sea "orange", devuelve --> "This is orange"
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
-}
+  switch (color) {
+    case 'blue':
+      console.log('This is blue');
+      break;
+    case 'red':
+      console.log('this is red');
+      break;
+    case 'green':
+      console.log('This is green');
+      break;
+    case 'orange':
+      console.log('This is orange');
+      break;
+    
+    default:
+      console.log('Color not found');
+  }
+  }
+ 
 
 function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
   // De lo contrario, devuelve "false"
   // Tu código:
+if(numero===5 || numero===10){
+  return true;
+}
+return false;
 }
 
 function estaEnRango(numero) {
   // Devuelve "true" si "numero" es menor que 50 y mayor que 20
   // De lo contrario, devuelve "false"
   // Tu código:
-}
+  if(numero<50) {
+  if(numero>20) {  
+  return true;
+  }
+  }
+  return false;
+  }  
+
 
 function esEntero(numero) {
   // Devuelve "true" si "numero" es un entero (int/integer)
@@ -60,6 +117,11 @@ function esEntero(numero) {
   // De lo contrario, devuelve "false"
   // Pista: Puedes resolver esto usando `Math.floor`
   // Tu código:
+var numredon = Math.floor(numero);
+if (numredon === numero) {
+  return true;
+}
+return false;
 }
 
 function fizzBuzz(numero) {
@@ -67,7 +129,16 @@ function fizzBuzz(numero) {
   // Si "numero" es divisible entre 5, devuelve "buzz"
   // Si "numero" es divisible entre 3 y 5 (ambos), devuelve "fizzbuzz"
   // De lo contrario, devuelve el numero
+if(numero%3==0){
+if(numero%5==0){
+return "fizzbuz";}
+return "fizz";}
+if(numero%5==0){
+return "buzz";
 }
+return numero;
+}
+
 
 function operadoresLogicos(num1, num2, num3) {
   //La función recibe tres números distintos. 
