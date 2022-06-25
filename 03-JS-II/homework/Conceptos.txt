@@ -1,0 +1,6 @@
+Explicaciones de los siguientes conceptos:
+
+* `for`: es un ciclo automático que se va a ejecutar hasta que la condición principal sea falsa.Tiene tres partes: una variable para contar, una condicion y un sumador que incrementa la variable a contar.
+* `&&`: es una estructura que indica que si se cumplen las dos condiciones se ejecutará el codigo programado.
+* `||`: es una estructura que indica que si se cumple una de las dos condiciones, se ejecutará el código programado.
+* `!`: es una estructura que devuelve lo contrario, si es verdadero lo vuelve falso y no ejecutará el código. Si es falso, lo vuelve verdadero y hace que el código se ejecute.
