@@ -1,0 +1,5 @@
+Arrays:
+
+Es un arreglo ordenado de elementos dentro de un conjunto determinado.
+Cada elemento tiene una identificación de su orden o posición en el arreglo
+además de su valor o contenido.
